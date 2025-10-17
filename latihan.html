@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratikum html Modul 0.1</title>
+</head>
+<body>
+
+  <center>
+    <div style="background-color: #ff9ad0; color: white; text-align: center; padding: 20px">
+  <img src="logo.png" alt="logo SMK Muhammadiyah" style="width:40px; vertical-align:middle; margin-right:10px;">
+ <span style="font-size:24px; font-weight:bold;">SMK MUHAMMADIYAH 3 TANGERANG SELATAN</span>
+  <p style="margin: 0">
+    Program Keahlian Rekayasa Perangkat Lunak <br>
+    Modul 0.1 - Praktikum Pemrograman HTML (HTML, PHP, dan CSS)
+  </br> 
+</p>
+</div>
+
+    <hr>
+    <b><h3>Praktikum Pemrograman HTML</h3>
+    <p>HTML, PHP dan CSS</p>
+    <p>Disusun oleh: Kevin Permana, S.Kom</p></b>
+</center>
+<hr>
+
+<h3>1. Tujuan</h3>
+<ul>
+    <li>Peserta didik dapat memahami dasar pemrograman server-side menggunakan HTML.</li>
+    <li>Peserta didik mengetahui sintaks-sintaks dasar HTML.</li>
+    <li>Peserta didik mampu menyelesaikan permasalahan sederhana menggunakan HTML.</li>
+</ul>
+
+<h3>2. Dasar Teori</h3>
+<p>HTML (HyperText Markup Language) merupakan bahasa markup untuk menyusun halaman web yang dapat dibaca oleh browser. 
+Browser seperti Google Chrome atau Firefox akan menerjemahkan kode HTML menjadi tampilan visual halaman web.</p>
+
+<b><p>Beberapa Elemen HTML yang Sering Digunakan:</p></b>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="5">
+    <tr>
+        <th>Tag</th>
+        <th>Fungsi</th>
+    </tr>
+    <tr>
+        <td>&lt;h1&gt;-&lt;h6&gt;</td>
+        <td>Judul atau heading</td>
+    </tr>
+    <tr>
+        <td>&lt;p&gt;</td>
+        <td>Paragraf teks</td>
+    </tr>
+    <tr>
+        <td>&lt;a&gt;</td>
+        <td>Hyperlink</td>
+    </tr>
+    <tr>
+        <td>&lt;img&gt;</td>
+        <td>Menampilkan gambar</td>
+    </tr>
+    <tr>
+        <td>&lt;br&gt;</td>
+        <td>Ganti baris</td>
+    </tr>
+    <tr>
+        <td>&lt;hr&gt;</td>
+        <td>Garis pemisah horizontal</td>
+    </tr>
+    <tr>
+        <td>&lt;b&gt;</td>
+        <td>Teks tebal</td>
+    </tr>
+    <tr>
+        <td>&lt;i&gt;</td>
+        <td>Teks miring</td>
+    </tr>
+</table>
+
+<h3>3. Langkah Percobaan</h3>
+
+<h4>3.1 Heading HTML</h4>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+<h4>3.2 Paragraf HTML</h4>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<h4>3.3 HTML Link</h4>
+<a href="https://www.w3schools.com" target="_blank">This is a link to W3Schools</a>
+
+<h4>3.4 HTML Image</h4>
+<img src="logo.png" width="100" alt="Logo Muhammadiyah 3"><br>
+<i>Rekayasa Perangkat Lunak SMK Muhammadiyah 3 Tangsel</i>
+
+<h4>3.5 Garis Horizontal</h4>
+<p>The hr tag defines a hoeizontal rule: </p>
+
+<hr size="2" color="gray" width="100%">
+<h4>This is a paragraph</h4>
+
+<h4>3.6 Ganti Baris</h4>
+<p>This is <br>a para <br> graph with line breaks</p>
+
+<h4>3.7 Format Teks HTML</h4>
+<p><b>This teks is bold</b></p>
+<p><i>This teks is italic</i></p>
+<p><u>This teks is underlined</u></p>
+<p>This is<sub>subscript</sub>and<sup>superscript</sup></p>
+
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: #ff9ad0;
+  }
+</style>
+
+<table style="width:100%">
+  <tr>
+    <th>Firtsname</th>
+    <th>Lastname</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<h4>3.8 HTML List</h4>
+<h4>Unorderes List</h4>
+<ul style="list-style-type:disc">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+  <li>Oranges</li>
+</ul>
+
+<h4>Ordered List</h4>
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+
+<h4>3.10 HTML Layout</h4>
+
+<div id="container" style="width:100%; border:1px solid black;">
+
+<div id="header" style="background-color:#a94f72; padding:10px;">
+  <h1 style="margin-bottom:0; text-align:center;">Main Title of The Web Page</h1>
+</div>
+
+<div id="menu" style="background-color:#eba9c1; height:200px; width:25%; float:left; border-right:1px solid black; box-sizing:border-box;">
+  <b>Menu</b><br>
+  HTML<br>
+  CSS<br>
+  JavaScript
+</div>
+
+<div id="content" style="background-color:#FFA0C4; height:200px; width:75%; float:left; box-sizing:border-box; border-left:1px solid black;">
+  <p style="margin:10px;">Content goes here...</p>
+</div>
+
+<div id="footer" style="background-color:#a94f72; clear:both; text-align:center; padding:10px; border-top:1px solid black;">
+  Copyright © SMK Muhammadiyah 3 Tangerang Selatan 
+</div>
+</div>
+
+<center>
+<p><b>Modul 0.1 - Pratikum Pemograman HTML</b></p>
+<p>SMK Muhammadiyah 3 Tangerang Selatan</p>
+<p><i>Program Keahlian Rekayasa Perangkat Lunak</i></p>
+</center>
+
+</body>
+</html>
